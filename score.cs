@@ -24,7 +24,6 @@ public class score
         int[] counts = CountValues(dice);
         int sum = SumDice(dice);
 
-        // Upper section
         p["Ones"] = ones ? 0 : counts[1] * 1;
         p["Twos"] = twos ? 0 : counts[2] * 2;
         p["Threes"] = threes ? 0 : counts[3] * 3;
@@ -32,14 +31,12 @@ public class score
         p["Fives"] = fives ? 0 : counts[5] * 5;
         p["Sixes"] = sixs ? 0 : counts[6] * 6;
 
-        // Lower section
         p["3Kind"] = threeOfAKind ? 0 : (HasKind(counts, 3) ? sum : 0);
         p["4Kind"] = fourOfAKind ? 0 : (HasKind(counts, 4) ? sum : 0);
         p["FullHouse"] = fullHouse ? 0 : (FullHouse(counts) ? 25 : 0);
         p["SmallStraight"] = smlStright ? 0 : (SmallStraight(counts) ? 30 : 0);
         p["LargeStraight"] = lrgStraight ? 0 : (LargeStraight(counts) ? 40 : 0);
 
-        // Yahtzee only if all 5 held & identical
         if (yahtzee)
             p["Yahtzee"] = 0;
         else if (dice.Length == 5 && YahtzeeCheck(dice))
@@ -47,7 +44,6 @@ public class score
         else
             p["Yahtzee"] = 0;
 
-        // Chance
         p["Chance"] = chance ? 0 : sum;
 
         return p;

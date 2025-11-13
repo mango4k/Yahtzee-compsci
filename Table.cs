@@ -9,7 +9,7 @@ class Table
         Dictionary<string, int> preview,
         Dictionary<string, int> finalScores,
         score scorer,
-        int roundNumber)   // <—— ADDED
+        int roundNumber)
     {
         Console.Clear();
 

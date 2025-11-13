@@ -32,7 +32,7 @@ class Program
                 Dictionary<string, int> preview = scorer.CalculatePreview(previewDice);
 
                 Table.Scoresheet(diceResult, held, preview, finalScores, scorer, round);
-                
+
                 Console.WriteLine("Roll " + rolls + "/3");
                 Console.WriteLine("Type dice numbers to HOLD/UNHOLD (e.g. 1 3 5)");
                 Console.WriteLine("Type 'reroll' to roll again");
@@ -80,7 +80,6 @@ class Program
                 }
                 else
                 {
-                    // HOLD / UNHOLD TOGGLE
                     foreach (string part in input.Split(' '))
                     {
                         int n;
@@ -90,12 +89,10 @@ class Program
 
                             if (held.Contains(index))
                             {
-                                // UNHOLD it
                                 held.Remove(index);
                             }
                             else
                             {
-                                // HOLD it
                                 held.Add(index);
                             }
                         }
