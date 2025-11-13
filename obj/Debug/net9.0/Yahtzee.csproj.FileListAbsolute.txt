@@ -1,0 +1,14 @@
+/Users/shazilahmad/Desktop/ICS4U1/Yahtzee/bin/Debug/net9.0/Yahtzee
+/Users/shazilahmad/Desktop/ICS4U1/Yahtzee/bin/Debug/net9.0/Yahtzee.deps.json
+/Users/shazilahmad/Desktop/ICS4U1/Yahtzee/bin/Debug/net9.0/Yahtzee.runtimeconfig.json
+/Users/shazilahmad/Desktop/ICS4U1/Yahtzee/bin/Debug/net9.0/Yahtzee.dll
+/Users/shazilahmad/Desktop/ICS4U1/Yahtzee/bin/Debug/net9.0/Yahtzee.pdb
+/Users/shazilahmad/Desktop/ICS4U1/Yahtzee/obj/Debug/net9.0/Yahtzee.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shazilahmad/Desktop/ICS4U1/Yahtzee/obj/Debug/net9.0/Yahtzee.AssemblyInfoInputs.cache
+/Users/shazilahmad/Desktop/ICS4U1/Yahtzee/obj/Debug/net9.0/Yahtzee.AssemblyInfo.cs
+/Users/shazilahmad/Desktop/ICS4U1/Yahtzee/obj/Debug/net9.0/Yahtzee.csproj.CoreCompileInputs.cache
+/Users/shazilahmad/Desktop/ICS4U1/Yahtzee/obj/Debug/net9.0/Yahtzee.dll
+/Users/shazilahmad/Desktop/ICS4U1/Yahtzee/obj/Debug/net9.0/refint/Yahtzee.dll
+/Users/shazilahmad/Desktop/ICS4U1/Yahtzee/obj/Debug/net9.0/Yahtzee.pdb
+/Users/shazilahmad/Desktop/ICS4U1/Yahtzee/obj/Debug/net9.0/Yahtzee.genruntimeconfig.cache
+/Users/shazilahmad/Desktop/ICS4U1/Yahtzee/obj/Debug/net9.0/ref/Yahtzee.dll
